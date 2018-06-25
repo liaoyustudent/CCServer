@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCServer.Frame", "CCServer.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCServer", "CCServer\CCServer.csproj", "{594A94D5-C68F-481C-B7D7-1DAB52586530}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{006C6853-30BB-46DC-BDF1-5D59D04F89AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{594A94D5-C68F-481C-B7D7-1DAB52586530}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{594A94D5-C68F-481C-B7D7-1DAB52586530}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{594A94D5-C68F-481C-B7D7-1DAB52586530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006C6853-30BB-46DC-BDF1-5D59D04F89AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006C6853-30BB-46DC-BDF1-5D59D04F89AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006C6853-30BB-46DC-BDF1-5D59D04F89AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006C6853-30BB-46DC-BDF1-5D59D04F89AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -96,3 +96,7 @@ D:\MyProjects\CCServer\CCServer\CCServer\bin\zh-Hans\System.Web.Http.Owin.resour
 D:\MyProjects\CCServer\CCServer\CCServer\obj\Debug\CCServer.csprojResolveAssemblyReference.cache
 D:\MyProjects\CCServer\CCServer\CCServer\obj\Debug\CCServer.dll
 D:\MyProjects\CCServer\CCServer\CCServer\obj\Debug\CCServer.pdb
+D:\MyProjects\CCServer\CCServer\CCServer\bin\ServiceStack.Common.dll
+D:\MyProjects\CCServer\CCServer\CCServer\bin\ServiceStack.Interfaces.dll
+D:\MyProjects\CCServer\CCServer\CCServer\bin\ServiceStack.Redis.dll
+D:\MyProjects\CCServer\CCServer\CCServer\bin\ServiceStack.Text.dll

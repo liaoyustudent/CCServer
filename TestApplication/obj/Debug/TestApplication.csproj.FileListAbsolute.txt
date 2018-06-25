@@ -1,0 +1,7 @@
+D:\MyProjects\CCServer\CCServer\TestApplication\bin\Debug\TestApplication.exe.config
+D:\MyProjects\CCServer\CCServer\TestApplication\bin\Debug\TestApplication.exe
+D:\MyProjects\CCServer\CCServer\TestApplication\bin\Debug\TestApplication.pdb
+D:\MyProjects\CCServer\CCServer\TestApplication\bin\Debug\BT.Manage.Redies.dll
+D:\MyProjects\CCServer\CCServer\TestApplication\obj\Debug\TestApplication.csprojResolveAssemblyReference.cache
+D:\MyProjects\CCServer\CCServer\TestApplication\obj\Debug\TestApplication.exe
+D:\MyProjects\CCServer\CCServer\TestApplication\obj\Debug\TestApplication.pdb
