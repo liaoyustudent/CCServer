@@ -1,0 +1,16 @@
+D:\MyProjects\CCServer\CCServer\CCServer.BLL\bin\Debug\CCServer.BLL.dll
+D:\MyProjects\CCServer\CCServer\CCServer.BLL\bin\Debug\CCServer.BLL.pdb
+D:\MyProjects\CCServer\CCServer\CCServer.BLL\bin\Debug\BT.Manage.Core.dll
+D:\MyProjects\CCServer\CCServer\CCServer.BLL\bin\Debug\BT.Manage.DataAccess.dll
+D:\MyProjects\CCServer\CCServer\CCServer.BLL\bin\Debug\BT.Manage.Frame.Base.dll
+D:\MyProjects\CCServer\CCServer\CCServer.BLL\bin\Debug\BT.Manage.Redies.dll
+D:\MyProjects\CCServer\CCServer\CCServer.BLL\bin\Debug\BT.Manage.Tools.dll
+D:\MyProjects\CCServer\CCServer\CCServer.BLL\bin\Debug\CCServer.Frame.dll
+D:\MyProjects\CCServer\CCServer\CCServer.BLL\bin\Debug\System.Web.Http.dll
+D:\MyProjects\CCServer\CCServer\CCServer.BLL\bin\Debug\jose-jwt.dll
+D:\MyProjects\CCServer\CCServer\CCServer.BLL\bin\Debug\CCServer.Frame.pdb
+D:\MyProjects\CCServer\CCServer\CCServer.BLL\obj\Debug\CCServer.BLL.csprojResolveAssemblyReference.cache
+D:\MyProjects\CCServer\CCServer\CCServer.BLL\obj\Debug\CCServer.BLL.dll
+D:\MyProjects\CCServer\CCServer\CCServer.BLL\obj\Debug\CCServer.BLL.pdb
+D:\MyProjects\CCServer\CCServer\CCServer.BLL\bin\Debug\NLog.dll
+D:\MyProjects\CCServer\CCServer\CCServer.BLL\bin\Debug\NLog.xml

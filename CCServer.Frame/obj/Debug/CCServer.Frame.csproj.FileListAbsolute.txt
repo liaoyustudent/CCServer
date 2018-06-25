@@ -1,0 +1,13 @@
+D:\MyProjects\CCServer\CCServer\CCServer.Frame\obj\Debug\CCServer.Frame.csprojResolveAssemblyReference.cache
+D:\MyProjects\CCServer\CCServer\CCServer.Frame\bin\Debug\CCServer.Frame.dll
+D:\MyProjects\CCServer\CCServer\CCServer.Frame\bin\Debug\CCServer.Frame.pdb
+D:\MyProjects\CCServer\CCServer\CCServer.Frame\bin\Debug\BT.Manage.Frame.Base.dll
+D:\MyProjects\CCServer\CCServer\CCServer.Frame\bin\Debug\jose-jwt.dll
+D:\MyProjects\CCServer\CCServer\CCServer.Frame\bin\Debug\System.Web.Http.dll
+D:\MyProjects\CCServer\CCServer\CCServer.Frame\obj\Debug\CCServer.Frame.dll
+D:\MyProjects\CCServer\CCServer\CCServer.Frame\obj\Debug\CCServer.Frame.pdb
+D:\MyProjects\CCServer\CCServer\CCServer.Frame\bin\Debug\BT.Manage.DataAccess.dll
+D:\MyProjects\CCServer\CCServer\CCServer.Frame\bin\Debug\BT.Manage.Redies.dll
+D:\MyProjects\CCServer\CCServer\CCServer.Frame\bin\Debug\BT.Manage.Tools.dll
+D:\MyProjects\CCServer\CCServer\CCServer.Frame\bin\Debug\NLog.dll
+D:\MyProjects\CCServer\CCServer\CCServer.Frame\bin\Debug\NLog.xml
