@@ -31,11 +31,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BT.Manage.Core, Version=1.0.0.42, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\BT.Manage.Core.1.0.0.42\lib\BT.Manage.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="BT.Manage.Frame.Base, Version=1.0.0.93, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\BT.Manage.Frame.Base.1.0.0.93\lib\BT.Manage.Frame.Base.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="BT.Manage.Tools, Version=1.0.0.47, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\BT.Manage.Tools.1.0.0.47\lib\BT.Manage.Tools.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
       <HintPath>..\packages\NLog.4.5.6\lib\net45\NLog.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.IO.Compression" />
@@ -51,7 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="EMobileUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sysLoginLogInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

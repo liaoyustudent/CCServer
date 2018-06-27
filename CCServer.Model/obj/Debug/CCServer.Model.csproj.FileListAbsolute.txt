@@ -5,3 +5,6 @@ D:\MyProjects\CCServer\CCServer\CCServer.Model\obj\Debug\CCServer.Model.dll
 D:\MyProjects\CCServer\CCServer\CCServer.Model\obj\Debug\CCServer.Model.pdb
 D:\MyProjects\CCServer\CCServer\CCServer.Model\bin\Debug\NLog.dll
 D:\MyProjects\CCServer\CCServer\CCServer.Model\bin\Debug\NLog.xml
+D:\MyProjects\CCServer\CCServer\CCServer.Model\bin\Debug\BT.Manage.Core.dll
+D:\MyProjects\CCServer\CCServer\CCServer.Model\bin\Debug\BT.Manage.Frame.Base.dll
+D:\MyProjects\CCServer\CCServer\CCServer.Model\bin\Debug\BT.Manage.Tools.dll

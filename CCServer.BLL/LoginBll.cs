@@ -8,6 +8,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BT.Manage.Model;
+using BT.Manage.Core;
+using BT.Manage.Tools;
 
 namespace CCServer.BLL
 {
@@ -30,6 +33,26 @@ namespace CCServer.BLL
             if (itme != null)
             {
                 var token = AuthToken.CreatToken(itme);
+
+                #region 记录登录日志
+                try
+                {
+                    sysLoginLogInfo logInfo = new sysLoginLogInfo()
+                    {
+                        FAccount = dto.UserName,
+                        FRedisKey = token,
+                        FSource = 1,
+                        FAddTime = DateTime.Now
+                    };
+                    logInfo.SaveOnSubmit();
+                }
+                catch(Exception ex)
+                {
+                    LogService.Default.Fatal("记录登录日志报错"+ex.Message);
+                }
+                #endregion 
+
+
 
                 if (RedisHelper.Item_Set(token, itme, 168))
                     return new Result { code = 1, message = "登录成功", @object = token };

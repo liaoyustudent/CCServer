@@ -14,3 +14,5 @@ D:\MyProjects\CCServer\CCServer\CCServer.BLL\obj\Debug\CCServer.BLL.dll
 D:\MyProjects\CCServer\CCServer\CCServer.BLL\obj\Debug\CCServer.BLL.pdb
 D:\MyProjects\CCServer\CCServer\CCServer.BLL\bin\Debug\NLog.dll
 D:\MyProjects\CCServer\CCServer\CCServer.BLL\bin\Debug\NLog.xml
+D:\MyProjects\CCServer\CCServer\CCServer.BLL\bin\Debug\CCServer.Model.dll
+D:\MyProjects\CCServer\CCServer\CCServer.BLL\bin\Debug\CCServer.Model.pdb
