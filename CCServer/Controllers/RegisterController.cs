@@ -60,6 +60,12 @@ namespace CCServer.Controllers
                     result.message = "该昵称已存在";
                     return result;
                 }
+                if(RegisterBll.CheckMobile(dto.FMobile))
+                {
+                    result.code = 0;
+                    result.message = "该手机号已存在";
+                    return result;
+                }
                 #endregion
 
                 dto.FID = 0;
@@ -108,6 +114,22 @@ namespace CCServer.Controllers
 
             return result;
         }
-        
+
+        /// <summary>
+        /// 检验是否存在相同手机号
+        /// </summary>
+        /// <param name="FNickName"></param>
+        /// <returns></returns>
+        [HttpGet]
+        [BtLog]
+        public Result CheckMobile(string FMobile)
+        {
+            Result result = new Result() { code = 1 };
+
+            result.@object = RegisterBll.CheckMobile(FMobile) ? 1 : 0;
+
+            return result;
+        }
+
     }
 }

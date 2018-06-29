@@ -24,5 +24,13 @@ namespace CCServer.BLL
                             where FNickName=@FNickName  ", new { FNickName = FNickName.Trim() });
             return ExistNickName;
         }
+
+        public static bool CheckMobile(string FMobile)
+        {
+            //判断手机号是否已存在
+            bool ExistMobile = ModelOpretion.ScalarDataExist(@" Select * From e_MobileUser
+                            where FMobile=@FMobile  ", new { FMobile = FMobile.Trim() });
+            return ExistMobile;
+        }
     }
 }
