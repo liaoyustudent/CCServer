@@ -15,9 +15,14 @@ using BT.Manage.Core;
 using BT.Manage.Tools.Utils;
 using BT.Manage.Tools;
 using CCServer.BLL;
+using CCServer.DTO;
+using AutoMapper;
 
 namespace CCServer.Controllers
 {
+    /// <summary>
+    /// 注册相关
+    /// </summary>
     public class RegisterController: BaseController
     {
         /// <summary>
@@ -27,7 +32,7 @@ namespace CCServer.Controllers
         /// <returns></returns>
         [HttpPost]
         [BtLog]
-        public Result RegisterAccount([FromBody] EMobileUser dto)
+        public Result RegisterAccount([FromBody] RegisterDTO dto)
         {
             Result result = new Result() { code = 1 };
 
@@ -68,10 +73,12 @@ namespace CCServer.Controllers
                 }
                 #endregion
 
-                dto.FID = 0;
-                dto.FPwd = EncryptUtils.MD5(dto.FPwd.Trim().ToLower()).ToLower();
-                dto.FAddTime = DateTime.Now;
-                dto.SaveOnSubmit();
+                EMobileUser registerInfo = Mapper.Map<RegisterDTO, EMobileUser>(dto);
+
+                registerInfo.FPwd= EncryptUtils.MD5(registerInfo.FPwd.Trim().ToLower()).ToLower();
+                registerInfo.FAddTime = DateTime.Now;
+                registerInfo.SaveOnSubmit();
+
             }
             catch(Exception ex)
             {
