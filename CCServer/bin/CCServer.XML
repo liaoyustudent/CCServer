@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CCServer</name>
+    </assembly>
+    <members>
+        <member name="P:CCServer.Base.BaseController.GetRequestToken">
+            <summary>
+            获取授权信息
+            </summary>
+        </member>
+        <member name="P:CCServer.Base.BaseController.UserInfo">
+            <summary>
+            基础控制类 在请求头中的Token中得到当前请求用户的UserId
+            </summary>
+            <returns>返回登录结果</returns>
+        </member>
+        <member name="M:CCServer.Controllers.LoginController.GetUserInfo(CCServer.Frame.DTO.LoginDto)">
+            <summary>
+            登录
+            </summary>
+            <param name="dto">登录参数</param>
+            <returns>返回用户信息</returns>
+        </member>
+        <member name="M:CCServer.Controllers.LoginController.IsLogin">
+            <summary>
+            判断是否为登录状态
+            </summary>
+            <returns>返回结果1为Ture，0为False</returns>
+        </member>
+        <member name="M:CCServer.Controllers.LoginController.LoginOut">
+            <summary>
+            退出登录
+            </summary>
+            <returns>返回是否退出成功</returns>
+        </member>
+        <member name="M:CCServer.Controllers.RegisterController.RegisterAccount(CCServer.Model.EMobileUser)">
+            <summary>
+            注册提交申请
+            </summary>
+            <param name="dto">注册实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:CCServer.Controllers.RegisterController.CheckAccount(System.String)">
+            <summary>
+            检验是否存在相同账户
+            </summary>
+            <param name="FAccount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CCServer.Controllers.RegisterController.CheckNickName(System.String)">
+            <summary>
+            检验是否存在相同昵称
+            </summary>
+            <param name="FNickName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CCServer.Controllers.RegisterController.CheckMobile(System.String)">
+            <summary>
+            检验是否存在相同手机号
+            </summary>
+            <param name="FNickName"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

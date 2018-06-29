@@ -23,7 +23,7 @@ namespace CCServer.Controllers
         /// <summary>
         /// 注册提交申请
         /// </summary>
-        /// <param name="dto"></param>
+        /// <param name="dto">注册实体</param>
         /// <returns></returns>
         [HttpPost]
         [BtLog]

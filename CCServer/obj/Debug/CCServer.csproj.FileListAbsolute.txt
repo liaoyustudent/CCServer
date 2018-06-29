@@ -100,3 +100,10 @@ D:\MyProjects\CCServer\CCServer\CCServer\bin\ServiceStack.Common.dll
 D:\MyProjects\CCServer\CCServer\CCServer\bin\ServiceStack.Interfaces.dll
 D:\MyProjects\CCServer\CCServer\CCServer\bin\ServiceStack.Redis.dll
 D:\MyProjects\CCServer\CCServer\CCServer\bin\ServiceStack.Text.dll
+D:\MyProjects\CCServer\CCServer\CCServer\bin\CCServer.XML
+D:\MyProjects\CCServer\CCServer\CCServer\bin\Swagger.Net.dll
+D:\MyProjects\CCServer\CCServer\CCServer\bin\Swashbuckle.Core.dll
+D:\MyProjects\CCServer\CCServer\CCServer\bin\WebActivator.dll
+D:\MyProjects\CCServer\CCServer\CCServer\bin\WebActivatorEx.dll
+D:\MyProjects\CCServer\CCServer\CCServer\bin\Swagger.Net.pdb
+D:\MyProjects\CCServer\CCServer\CCServer\bin\Swagger.Net.xml
